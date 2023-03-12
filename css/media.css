@@ -1,0 +1,75 @@
+@media (max-width:991px) {
+    .navbar .collapse{margin: -85px 0 0 0;}
+}
+@media (max-width:991px) and (min-width:768px) {
+    .features-side .btn{width: 170px;}
+}
+@media (max-width:768px) {
+    .slider .carousel-inner{justify-content: center;}
+    .slider .carousel-inner h1{
+        text-align: center;
+        font-size: 35px;
+        max-width: 100%;
+        left: auto;
+        margin: auto;
+    }
+    .slider .carousel-item{margin-right: 0;}
+    .footer2 h2 {font-size: 17px;}
+}
+@media (max-width:600px) {
+    .navbar .collapse{margin: -85px 0 0 0;}
+    .navbar .client {padding: 14px 14px;font-size: 17px;}
+    .navbar .navbar-brand{margin: 0 -60px 0 0 !important;}
+    
+    .features .features-side {display: flex;flex-direction: column;align-items: center;}
+    .features .desc {transform: translateY(-446px);}
+    .services{padding: 0 20px;}    
+    .services .link{padding-right: 0 !important;}
+    .projects .card{margin-bottom: 25px;}
+
+    .footer1 .justify-content-end {justify-content: center !important;padding-top: 20px;}
+    .footer2 .copy-right h2 {justify-content: center;}
+    .footer2 .copy-right .contact {justify-content: center !important;margin-top: 20px;}
+
+}
+@media (max-width:400px) {
+    .navbar-brand img {width: 250px;}
+    .navbar .navbar-brand {margin: 0 -44px 0 0 !important;}
+    .navbar .collapse {margin: -70px 0 0 0;}
+    .navbar .client {padding: 11px 14px;font-size: 14px;}
+    .navbar .collapse span i {font-size: 24px;}
+
+    .slider{height: 440.953px;}
+    .slider .slide{height: 100%;}
+    .slider .carousel-inner{height: 100%;}
+    .slider .carousel-item{height: 100%;}
+
+    .advantages .title h3 {font-size: 1.5rem;}
+}
+
+@media (max-width:280px) {
+    .navbar-brand img {width: 190px;}
+    .navbar .collapse {margin: -58px 0 0 0;}
+    .navbar .client {padding: 7px 14px;font-size: 10px;}
+    .navbar .collapse span i {font-size: 18px;}
+
+    .slider{height: 300px;}
+    .slider .slide{height: 100%;}
+    .slider .carousel-inner{height: 100%;}
+    .slider .carousel-item{height: 100%;}
+
+    .main-title h1 {font-size: 16px;}
+    .main-title h3 {font-size: 30px;}
+
+    .services .price{padding: 33px 16px 12px !important;}
+
+    .projects .title h2 {font-size: 20px;}
+    .projects .title h3 {font-size: 30px;}
+    .projects .web-title h3 {font-size: 17px;}
+    .projects .proj-btn {font-size: 16px;}
+    
+    .features img{width: 200px;margin: -70px 0 -91px;}
+
+    .footer1 a{font-size: 13px;padding:0 0 0 10px !important;}
+    .footer1 .justify-content-end {justify-content: center !important;padding-top: 20px;}
+}
