@@ -4,7 +4,7 @@
 @media (max-width:991px) and (min-width:768px) {
     .features-side .btn{width: 170px;}
 }
-@media (max-width:768px) {
+@media (max-width:767px) {
     .slider .carousel-inner{justify-content: center;}
     .slider .carousel-inner h1{
         text-align: center;
@@ -14,6 +14,13 @@
         margin: auto;
     }
     .slider .carousel-item{margin-right: 0;}
+    
+    .menu-bar .sec-ul{border-right: 0}
+    .menu-bar .left{border-right: 1px solid;margin:0 20px 100px 0;}
+    .menu-bar ul li:nth-child(1){font-size: 18px;}
+    .menu-bar .about{padding-right: 0;margin-left:-40px;}
+    .menu-bar .about li{font-size: 16px;}
+
     .footer2 h2 {font-size: 17px;}
 }
 @media (max-width:600px) {
@@ -57,6 +64,8 @@
     .slider .slide{height: 100%;}
     .slider .carousel-inner{height: 100%;}
     .slider .carousel-item{height: 100%;}
+
+    .menu-bar .left {margin: 0px 42px 100px 0;}
 
     .main-title h1 {font-size: 16px;}
     .main-title h3 {font-size: 30px;}

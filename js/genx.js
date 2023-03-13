@@ -1,16 +1,21 @@
 // ========================= menu-bar
-let closeMenu = document.querySelector('.menu-bar .navbar .close i');
+let closeMenu = document.querySelector('.menu-bar .navbar .close');
 let menuBox = document.querySelector('.menu-bar');
 let menuBtn = document.querySelector('.collapse span i');
+let aboutSection = document.querySelector('.menu-bar .about');
 
 closeMenu.addEventListener('click',function(){
     menuBox.style.height = 0;
     menuBox.style.overflow = 'hidden';
+    aboutSection.style.position = 'relative';
 });
 
 menuBtn.addEventListener('click',function(){
     menuBox.style.height = '100%';
     menuBox.style.overflow = 'auto';
+    setTimeout(function(){
+        aboutSection.style.position = 'fixed';
+    },300)
 });
 
 
