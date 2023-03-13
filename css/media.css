@@ -4,7 +4,7 @@
 @media (max-width:991px) and (min-width:768px) {
     .features-side .btn{width: 170px;}
 }
-@media (max-width:767px) {
+@media (max-width:768px) {
     .slider .carousel-inner{justify-content: center;}
     .slider .carousel-inner h1{
         text-align: center;
@@ -17,9 +17,9 @@
     
     .menu-bar .sec-ul{border-right: 0}
     .menu-bar .left{border-right: 1px solid;margin:0 20px 100px 0;}
-    .menu-bar ul li:nth-child(1){font-size: 18px;}
+    .menu-bar ul li:nth-child(1){font-size: 16px;}
     .menu-bar .about{padding-right: 0;margin-left:-40px;}
-    .menu-bar .about li{font-size: 16px;}
+    .menu-bar .about li{font-size: 14px;}
 
     .footer2 h2 {font-size: 17px;}
 }
@@ -41,15 +41,12 @@
 }
 @media (max-width:400px) {
     .navbar-brand img {width: 250px;}
-    .navbar .navbar-brand {margin: 0 -44px 0 0 !important;}
+    .navbar .navbar-brand {margin: 0 -50px 0 0 !important;}
     .navbar .collapse {margin: -70px 0 0 0;}
     .navbar .client {padding: 11px 14px;font-size: 14px;}
     .navbar .collapse span i {font-size: 24px;}
 
-    .slider{height: 440.953px;}
-    .slider .slide{height: 100%;}
-    .slider .carousel-inner{height: 100%;}
-    .slider .carousel-item{height: 100%;}
+    .features img{width: 200px;}
 
     .advantages .title h3 {font-size: 1.5rem;}
 }
@@ -60,14 +57,18 @@
     .navbar .client {padding: 7px 14px;font-size: 10px;}
     .navbar .collapse span i {font-size: 18px;}
 
-    .slider{height: 300px;}
-    .slider .slide{height: 100%;}
-    .slider .carousel-inner{height: 100%;}
-    .slider .carousel-item{height: 100%;}
+    .slider{height: 300px !important;}
+    .slider .slide{height: 100% !important;}
+    .slider .carousel-inner{height: 100% !important;}
+    .slider .carousel-item{height: 100% !important;}
+    .slider .carousel-item img{height: 100% !important;}
 
     .menu-bar .left {margin: 0px 42px 100px 0;}
+    .menu-bar ul li:nth-child(1) {font-size: 13px;}
+    .menu-bar ul li {font-size: 12px;padding: 7px 0;}
 
     .main-title h1 {font-size: 16px;}
+    .main-title h2 {font-size: 27px;}
     .main-title h3 {font-size: 30px;}
 
     .services .price{padding: 33px 16px 12px !important;}
@@ -81,4 +82,25 @@
 
     .footer1 a{font-size: 13px;padding:0 0 0 10px !important;}
     .footer1 .justify-content-end {justify-content: center !important;padding-top: 20px;}
+
+    .loading img{
+        width: 200px;
+        filter: drop-shadow(2px 4px 6px black);
+        animation: loading2 5s infinite ease-in-out;
+    }
+    @keyframes loading2 {
+        0%{
+            transform: scale(1);
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: scale(1.5);
+            width: 00px;
+            transform: rotate(360deg);
+        }
+        50%{
+            transform: scale(1);
+            transform: rotate(0deg);
+        }
+    }
 }

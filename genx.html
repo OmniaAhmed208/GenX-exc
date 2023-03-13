@@ -112,7 +112,7 @@
       <!-- ================= intro ===================== -->
         
       <div class="slider">
-        <div id="slider" class="carousel slide" data-bs-ride="carousel">
+        <div id="slider" class="carousel slide" data-bs-ride="true">
           <div class="carousel-inner">
             <div class="layout"></div>
             
@@ -263,7 +263,7 @@
                     <div class="col-md-6">
                         <div class="desc text-center"></div>
                         <figure class="text-center">
-                            <img src="imgs/server.svg" alt="">
+                            <img src="imgs/server.svg" class="img-fluid" alt="">
                         </figure>
                     </div>
                     <div class="col-md-3">
@@ -552,7 +552,7 @@
         var winH = $(window).height(),
         navH = $('.navbar').innerHeight();
 
-        $('.slider, .carousel-item').height(winH - navH );
+        $('.slider, .carousel-item, .carousel-item img').height(winH - navH );
         
         // ============================= loading
 
